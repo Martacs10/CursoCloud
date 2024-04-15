@@ -1,2 +1,2 @@
-# CursoCloud
-Repositorio para meter documentacion de cloud
+# CursoCloud Computing
+Repositorio para meter documentacion de cloud. Contiene aplicacion MVC
