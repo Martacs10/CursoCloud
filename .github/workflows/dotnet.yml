@@ -19,8 +19,8 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore csproj
+      run: dotnet restore prueba.csproj
     - name: Build
-      run: dotnet build --no-restore csproj
+      run: dotnet build --no-restore prueba.csproj
     - name: Test
-      run: dotnet test --no-build --verbosity normal csproj
+      run: dotnet test --no-build --verbosity normal prueba.csproj
